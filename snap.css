@@ -1,0 +1,138 @@
+    
+@import url('https://fonts.cdnfonts.com/css/poppins');
+body{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 50px;
+    overflow-x: hidden;
+    font-family: poppins;
+}
+.image{
+    max-width: 100px;
+    max-height: 100px;
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+   
+}
+.container h2{
+    color: white;
+}
+.container img{
+    max-width:200px;
+    max-height: 200px;
+}
+button{
+    border: none;
+  
+}
+.button{
+    background-color: rgb(55, 132, 221);
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 1000px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+}
+.container_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   color: black;
+   margin-top: 100px;
+   
+}
+.container_login h1{
+    font-weight: 400;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.contact h1{
+   font-size: 36px;
+   font-weight: 500;
+   color: #c77dff;
+   
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+ 
+    
+    
+}
+
+.contactform h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactform .inputbox input,.contactform .inputbox textarea {
+   width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 0px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+.contactform .inputbox input:focus ~ span,.contactform .inputbox input:valid ~ span,.contactform .inputbox textarea:focus ~ span,.contactform .inputbox textarea:valid ~ span {
+    color: #240046;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+#login{
+    display: flex;
+    gap: 30px;
+   
+    
+}
+
